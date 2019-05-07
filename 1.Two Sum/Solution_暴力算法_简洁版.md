@@ -6,6 +6,7 @@ class Solution:
         :rtype: List[int]
         """
         
+        
         for index1,element1 in enumerate(nums):
             for index2,element2 in enumerate(nums[index1+1:len(nums)]):
                 if element1+element2==target:
