@@ -1,0 +1,14 @@
+class Solution(object):
+    def isAnagram(self, s, t):
+        """
+         python内部的sort采用的是混合（hybrid）排序，肯定是比快排效率高的
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        list_s=list(s)
+        list_s.sort()#mutates the list, return Nothing
+        list_t=list(t)
+        list_t.sort()
+        return list_s==list_t
+        
