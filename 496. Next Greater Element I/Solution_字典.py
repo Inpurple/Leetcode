@@ -14,7 +14,7 @@ class Solution(object):
                 if nums2[j]>nums2[i]:
                     r[nums2[i]]=nums2[j]
                     break
-                if j==len(nums2)-1:#最后一个都没有找到比它大的值
+                if j==len(nums2)-1:#最后一个都没有找到比它大的值，代替用flag
                     r[nums2[i]]=-1
                 
         return [r.get(i) for i in nums1]
