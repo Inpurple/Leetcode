@@ -14,4 +14,4 @@ class Solution(object):
             stack.append(num)
             #只有满足条件（后面的列表有第一个比num大的值）字典才有对应的键值
             
-        return[r.get(i,-1) for i in nums1]#如果字典找不到i,则返回"-1"
+        return[r.get(i,-1) for i in nums1]#如果字典找不到i,则返回-1
