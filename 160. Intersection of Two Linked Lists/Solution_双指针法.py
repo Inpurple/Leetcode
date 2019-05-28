@@ -16,8 +16,9 @@ class Solution(object):
             if true：
                 action
             else
-                action
+                statement
         3.Python中if else简写出现"SyntaxError: can't assign to conditional expression"错误的解决方法将else后的“p1=”去掉。
+            expression是表达式，就是加减乘除等各种运算符号联接起来的式子，是可以被求值的代码
         """
         
         p1=headA
