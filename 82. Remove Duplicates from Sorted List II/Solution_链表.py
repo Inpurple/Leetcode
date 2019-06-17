@@ -20,7 +20,7 @@ class Solution(object):
                 dic[cur1.val]=1
             cur1=cur1.next
 
-        p=ListNode(0)
+        p=ListNode(0)#需要一个指针一直指向-1节点
         p.next=head
         pre=p
         cur=head
