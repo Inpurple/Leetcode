@@ -20,3 +20,4 @@ class Solution(object):
                 s=s+sta[-1]+sta[-2]
                 sta.append(sta[-1]+sta[-2])
         return s
+ 
