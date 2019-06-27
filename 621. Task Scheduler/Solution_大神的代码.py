@@ -32,3 +32,5 @@ class Solution(object):
 链接：https://leetcode-cn.com/problems/two-sum/solution/python-xiang-jie-by-jalan/
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+#从时间、空间复杂度上此代码没有什么优化，只是使用的一些python内置方法可以参考。
