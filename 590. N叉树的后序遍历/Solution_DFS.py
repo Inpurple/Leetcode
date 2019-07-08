@@ -14,5 +14,5 @@ class Solution:
         else:
             for child in root.children:
                 self.postorder(child)
-            self.res.append(root.val)
+            self.res.append(root.val)#append O(1)
         return self.res
